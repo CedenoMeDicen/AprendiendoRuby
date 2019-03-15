@@ -21,4 +21,8 @@ Metodos (convertir)
 Metodos (puts, gets, chomp)
 
     puts    Imprimir en pantalla 'put sitring'
+    gets    optener string  'get string'
+    chomp   Elimina cuelquier 'Enter' despues de un texto
+
+
     

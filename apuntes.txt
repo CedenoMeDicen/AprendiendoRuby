@@ -1,0 +1,24 @@
+variables en ruby 
+    no tienen tipo de dato
+    Constante = inician con mayuscula 
+    variable = inician con minuscula 
+
+Numeros 
+    enteros 
+    flotantes 
+
+
+Textos 
+    '+'     concatena textos
+
+
+Metodos (convertir)
+
+    .to_s   Convertir a string 
+    .to_i   Convertir a int
+    .to_f   Convertir a float
+
+Metodos (puts, gets, chomp)
+
+    puts    Imprimir en pantalla 'put sitring'
+    

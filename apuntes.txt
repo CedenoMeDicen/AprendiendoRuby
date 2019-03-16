@@ -25,4 +25,9 @@ Metodos (puts, gets, chomp)
     chomp   Elimina cuelquier 'Enter' despues de un texto
 
 
+
+    %w  Elementos delimitados por 'espacios'
+    %r() Es otra forma de escribir una expresión regular.
+    %q() es otra forma de escribir una cadena entre comillas simples (y puede ser multilínea, lo que es muy útil)
+    %Q() da una cadena entre comillas dobles
     

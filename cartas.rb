@@ -1,4 +1,5 @@
-def carta_random
+
+def carta_random()
     tipo_de_palo = %w[trebol picas corazones diamantes]
     numero_carta = %w[1 2 3 4 5 6 7 8 9 J Q K]
 
@@ -8,10 +9,10 @@ def carta_random
 
     puts 'La carta fue ' + numero_carta_random + ' '+ tipo_carta_random 
 
-
-    
 end
+print "¿Cuantas cartas aleatorias quieres?"
+num = gets.to_i
 
-10.times do
-    carta_random
+num.times do
+    carta_randon
 end

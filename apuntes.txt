@@ -31,3 +31,33 @@ Metodos (puts, gets, chomp)
     %q() es otra forma de escribir una cadena entre comillas simples (y puede ser multilínea, lo que es muy útil)
     %Q() da una cadena entre comillas dobles
     
+
+Arrays
+    compact         extrae todos los nil
+    compact!        elimina todos los nil
+    uniq            extrae valores repetidos
+    uniq!           elimina valores repetidos
+    pop             extrae el ultimo elemento y lo retorna 
+    push            inserta un nuevo elemento   
+    include?        busca si en el array existe un elemento
+    Unshift         agregará un nuevo elemento al principio de una matriz
+    insert          agregará un elemento en cualquier posición
+    insert()        agregará un elemento en un índice particular
+    delete_at()     para eliminar un elemento en un índice particular 
+    delete ()       para eliminar un elemento en particular 
+
+    join('  ')      regresa los valores en string
+    sort            ordena el array 
+
+Iterando arrays 
+
+    each        
+    map         crea un nuevo array en base al originl
+    map!        crea un nuevo array en base al original y lo modifica
+    times       iterar el bloque ese numero de veces     
+
+
+
+
+juego de la vida 
+https://boriel.com/es/lab/el-juego-de-la-vida-de-conway/
